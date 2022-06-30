@@ -1,73 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="../style/styles.css">
-        <title>Inicio - DIVERSY MUSIC</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+        
+    <title>Inicio - DIVERSY MUSIC</title>
+</head>
 <body>
+
     <!-- HEADER -->
-    <header>
-        <h1>DIVERSY MUSIC</h1>
+    <header class="header">
+        <h1 class="display-1 fw-bold text-center">DIVERSY MUSIC</h1>
         
-        <h2>La historia de los grandes discos del rock</h2>
+        <h2 class="display-6 text-center">La historia de los grandes discos del rock</h2>       
         
-        <div class="barra-busqueda">
-            <input type="text" name="busqueda" placeholder="buscar..">
-            <button type="submit"> Ir </button>
-        </div> 
-
-        <nav>
-            <ul>
-                <li> <a href="../index.html">Inicio</a> </li>
-                <li> <a href="./lanzamientos.html">Lanzamientos</a> </li>
-                <li> <a href="./resena.html">Resenas</a> </li>
-                <li> <a href="./informes.html">Informes</a> </li>
-                <li> <a href="./galeria.html">Galería</a> </li>
-                <li> <a href="./contacto.html">Contacto</a> </li>   
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light border-bottom navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./lanzamientos.html">Lanzamientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./resena.html">Resenas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./informes.html">Informes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
         </nav>
+        
     </header>
-
     <!-- MAIN -->
     <main>
-        <section>
-            <h4 class="titulo-seccion">Contacto</h4>
-                <form class="contacto">
-                    <label for="campo-nombre">Nombre y Apellido</label>
-                    <input type="text" id="campo-nombre" placeholder="Nombre y Apellido" required>
-                        
-                    <label for="campo-mail">Email</label>
-                    <input type="email" id="campo-mail" placeholder="ejemplo@mail.com">
-
-                    <label for="campo-telefono">Telefono</label>
-                    <input type="telefono" id="campo-telefono">
-
-                    <label for="select-pais">País</label>
-                        <select name="select-pais" id="select-pais">
-                            <option value="">Argentina</option>
-                            <option value="">Bolivia</option>
-                            <option value="">Brasil</option>
-                            <option value="">Chile</option>
-                            <option value="">Paraguay</option>
-                            <option value="">Perú</option>
-                            <option value="">Uruguay</option>
-                        </select>
-                        
-                        <p>Desea recibir el Newsletter?</p>
-                        <input type="checkbox">
-
-                        <div>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>    
+        <section id="index-contacto" class="my5">
+            <div class="row rounded-3 shadow-lg">
+                <div class="col col-lg-9 p-4">
+                    <h3 class="fw-bold display-5 text-center text-lg-start">Contacto</h3>
+                    <form action=""></form>
+                    <div class="row">
+                        <div class="form-floating mb-3 col-12 col-lg-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Nombre y Apellido</label>
                         </div>
-                        
-                            <input type="submit" value="Enviar Mensaje">
-                            <input type="reset" value="Borrar Formulario">
-                        
-                </form>
+                        <div class="form-floating mb-3 col-12 col-lg-3">
+                            <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Email del Usuario</label>
+                        </div>
+                        <div class="form-floating mb-3 col-12 col-lg-3">
+                            <input type="tel" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Telefono del Usuario</label>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center col-12 col-lg-3">
+                            <button class="btn">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -75,7 +88,6 @@
     <footer>
         <div>
             <h4 class="titulo-cierre">Diversy Music</h4>
-            
             <div class="diversy">
                 <li> <a href="../index.html">Inicio</a> </li>
                 <li> <a href="./lanzamientos.html">Lanzamientos</a> </li>
@@ -84,9 +96,7 @@
                 <li> <a href="./galeria.html">Galería</a> </li>
                 <li> <a href="./contacto.html">Contacto</a> </li>   
             </div>
-                        
             <h4 class="titulo-cierre">Seguinos:</h4>
-            
             <div class="contenedor-redes">
                 <a href="https://www.facebook.com/"><i class="bi-facebook"></i></a>
                 <a href="https://twitter.com/?lang=es"><i class="bi-twitter"></i></a>
@@ -94,6 +104,7 @@
                 <a href="https://www.spotify.com/bo/"><i class="bi-spotify"></i></a>    
             </div>
         </div>
-    </footer>  
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
