@@ -163,6 +163,60 @@ a{
 }
 
 
+/* Seccion Galeria Grid */
+
+.caja-grid img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    padding: 15px;
+    margin: 0;    
+}
+
+.caja-grid:hover{
+    transform: scale(1.04);
+}
+
+@media (min-width: 575px){
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    grid-gap: 10px;
+    padding: 2vh 7.5vw;
+}
+}
+
+.caja-grid.c7{
+    grid-column-start: span 2;
+}
+
+
+@media screen and (min-width: 1024px){
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:;
+    padding: 2vh 3vw;
+    grid-gap: 3px;
+    margin: auto;
+}
+.caja-grid.c7{
+    grid-column-start: span 1;
+}
+
+.caja-grid.c8{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+.caja-grid.c9{
+    grid-column-start: span 1;
+}
+}
+
+
+
 @media(min-width:1024px){
 /* Header */
     header{
@@ -188,7 +242,6 @@ a{
     flex-direction: column;
 }
 
-
 .grid-main{
     display: grid;
     grid-template-columns: repeat(2, 1fr) 30%;
@@ -211,7 +264,6 @@ a{
     flex-direction: column;
     height: auto;
     overflow-x: hidden;
-    
 }
 
 /* Seccion Trending - a-side */
@@ -219,36 +271,4 @@ a{
     grid-area: trending;
 }
 
-/* Seccion Galeria Grid */
-
-.contenedor-grid{
-    color: whitesmoke;
-    padding: 20px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3,1fr);
-    justify-content: center;
-    align-items: center;
-    grid-gap: 20px;
-}
-
-.caja-grid:hover{
-    transform: scale(1.1);
-}
-
-.contenedor-grid .caja-grid img{
-    width: 100%;
-    object-fit: fill;
-}
-
-@media screen and (min-width: 1024px) {
-.contenedor-grid{
-    width: 100%;
-    padding: 50px;
-    grid-gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-}
-}
 }
