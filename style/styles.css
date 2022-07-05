@@ -38,6 +38,10 @@ a.nav-link{
     margin: none;
 }
 
+.card-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* FOOTER */
 a.dropdown-item{
     color: greenyellow;
@@ -63,6 +67,7 @@ a.nav-link.active{
     font-size: x-large;
     font-weight: 500;
 }
+
 
 /* Seccion Galeria Grid */
 
