@@ -1,0 +1,57 @@
+.cards {
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.card {
+    background-color: $clr-celesteclaro;
+    padding: 1.1rem;
+    margin: 1.1rem auto;
+
+    &__img{
+        @include flexCenter;
+        padding: 1rem;
+        
+        & img {
+            width: 100%;
+            transition: scale 200ms ease;
+        }
+    }
+}
+
+
+.titulo-seccion{
+    color: $clr-azuloscuro;
+    font-family: $ff-robotslab;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    padding: none;
+    margin: none;
+}
+
+.card-title{
+    color: $clr-azulclaro;
+    font-family: $ff-roboto;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

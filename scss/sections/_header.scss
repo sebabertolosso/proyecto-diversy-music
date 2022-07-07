@@ -1,0 +1,22 @@
+.header{
+    background-color: black;
+    color: $clr-celesteoscuro;
+    font-family: $ff-roboto;
+    font-weight: bolder;
+    }
+
+h2{
+    color: $clr-celestemedio;
+    font-family: $ff-roboto;
+}
+
+
+a.nav-link{
+    color: $clr-celesteoscuro;
+}
+
+.btn {
+    color: $clr-azuloscuro;
+    background-color: $clr-celesteoscuro;
+    border-radius: 1rem $clr-azuloscuro;
+}
