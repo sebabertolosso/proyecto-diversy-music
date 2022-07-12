@@ -6,8 +6,8 @@
 
 .card {
     background-color: $clr-celesteclaro;
-    padding: 1.1rem;
-    margin: 1.1rem auto;
+    padding: 0.1rem;
+    margin: 0.1rem auto;
 
     &__img{
         @include flexCenter;
@@ -33,7 +33,7 @@
 .card-title{
     color: $clr-azulclaro;
     font-family: $ff-roboto;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
