@@ -18,5 +18,22 @@ a.nav-link{
 .btn {
     color: $clr-azuloscuro;
     background-color: $clr-celesteoscuro;
-    border-radius: 1rem $clr-azuloscuro;
+    border-radius: 4px;
+    border: 1px solid black;
+
+    &:hover {
+        filter:grayscale(100%);
+    }
+}
+
+.btnAzul{
+    @extend .btn;
+    background-color: $clr-azuloscuro;
+    color: whitesmoke;
+}
+
+.btnCeleste{
+    @extend .btn;
+    background-color: $clr-celesteoscuro;
+    color: black;
 }

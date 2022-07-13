@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     
-        
+    <meta name="description" content="Información de contacto para suscriptores.">
+    <meta name="keywords" content="informacion, contacto, suscripcion, musica, noticias, novedades">
+    <meta name="owner" content="Sebastian Bertolosso">
+
     <title>Inicio - DIVERSY MUSIC</title>
 </head>
 <body>
@@ -17,7 +20,7 @@
     <header class="header">
         <h1 class="display-1 fw-bold text-center">DIVERSY MUSIC</h1>
         
-        <h2 class="display-6 text-center">La historia de los grandes discos del rock</h2>       
+        <h2 class="display-6 text-center">La historia de los discos esenciales de la musica</h2>       
         
         <nav class="navbar navbar-expand-lg bg-light border-bottom navbar navbar-dark bg-dark">
             <div class="container-fluid">
@@ -46,9 +49,9 @@
                     <a class="nav-link" href="./contacto.html">Contacto</a>
                 </li>
                 </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <form class="d-flex" role="buscar">
+                <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn" type="submit">Buscar</button>
                 </form>
             </div>
             </div>
@@ -56,36 +59,36 @@
         
     </header>
     <!-- MAIN -->
-    <main>
+    <main class="container-fluid">
         <h3 class="titulo-seccion border-bottom">Contacto</h3>
         
         <section id="index-contacto" class="my-5">
             
-            <div class="row rounded-5 shadow-lg">
-                <div class="col col-lg-9 p-5">
-                    <h3 class="text-center text-lg-start fw-bold">Dejanos tus datos</h3>
+            <div class="row rounded-2 shadow-lg formulario m-5">
+                <div class="col p-5 m-5">
+                    <h3 class="text-center text-lg-start letraGrande">Dejanos tus datos</h3>
                     
-                    <p class="text-center text-lg-start">Para estar al tanto de todas las novedades del mundo de la musica.</p>
+                    <p class="text-center text-lg-start letraMediana">Para estar al tanto de todas las novedades.</p>
                     
-                    <form action="form-floating mb-3 col-12 col-lg-3 rounded-3">
+                    <form action="form-floating mb-3 col-12 rounded-3">
                         <div class="row">
-                            <div class="form-floating mb-3 col-12 col-lg-5 mb-0">
+                            <div class="form-floating mb-3 col-12 mb-0">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                <label for="floatingInput">Nombre y Apellido</label>
+                                <label for="floatingInput letraChica">Nombre y Apellido</label>
                             </div>
                         
-                            <div class="form-floating mb-3 col-12 col-lg-5 mb-0">
-                                <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
-                                <label for="floatingPassword">Email del Usuario</label>
+                            <div class="form-floating mb-3 col-12 mb-0">
+                                <input type="email" class="form-control" id="input-email" placeholder="Password">
+                                <label for="floatingPassword letraChica">Email del Usuario</label>
                             </div>
                         
-                            <div class="form-floating mb-3 col-12 col-lg-5 mb-0">
-                                <input type="tel" class="form-control" id="floatingPassword" placeholder="Password">
-                                <label for="floatingPassword">Telefono del Usuario</label>
+                            <div class="form-floating mb-3 col-12 mb-0">
+                                <input type="tel" class="form-control" id="input-telefono" placeholder="Password">
+                                <label for="floatingPassword letraChica">Telefono del Usuario</label>
                             </div>
                         
-                            <div class="d-flex justify-content-center align-items-center col-12 col-lg-3">
-                                <button class="btn">Enviar</button>
+                            <div class="d-flex justify-content-center align-items-center col-12">
+                                <button class="btn btnAzul">Enviar</button>
                             </div>
                         </div>
                     </form>
@@ -104,7 +107,7 @@
                 <div class="col-12 col-lg-2 d-flex flex-column justify-content-evenly align-items-center d-lg-inline-block">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Diversy Music</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Diversy Music</a>
                         </li>
                     </ul>
                 </div>  
@@ -112,10 +115,10 @@
                 <div class="col-12 col-lg-5 px-4">
                     <h4 class="col-12 col-lg-6 my-3 text-center text-lg-star">Seguinos En:</h4>
                     <div class="col-12 col-lg-6 d-flex flex-row justify-content-around justify-content-lg-evenly">
-                        <a href="https://www.facebook.com/"><i class="bi-facebook"></i></a>
-                        <a href="https://twitter.com/?lang=es"><i class="bi-twitter"></i></a>
-                        <a href="https://www.instagram.com/"><i class="bi-instagram"></i></a>
-                        <a href="https://www.spotify.com/bo/"><i class="bi-spotify"></i></a> 
+                        <a href="https://www.facebook.com/"><i class="bi-facebook btnFacebook"></i></a>
+                        <a href="https://twitter.com/?lang=es"><i class="bi-twitter btnTwitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="bi-instagram btnInstagram"></i></a>
+                        <a href="https://www.spotify.com/bo/"><i class="bi-spotify btnSpotify"></i></a> 
                     </div>
                 </div>
 
@@ -126,7 +129,7 @@
                             <input type="email" class="form-control rounded" id="floatingInput" placeholder="ejemplo@gmail.com">
                         </div>    
                         <div class="col-4 my-3 my-lg-0">
-                            <button class="btn bg-verde c-blanco shadow" type="submit">Enviar</button>
+                            <button class="btn btnCeleste" type="submit">Enviar</button>
                         </div>
                     </form>
                 </div>
