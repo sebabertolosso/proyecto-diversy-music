@@ -42,6 +42,7 @@
 
 .card {
   background-color: #dce3e8;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0.1rem;
   margin: 0.1rem auto; }
   .card__img {
@@ -53,47 +54,55 @@
       width: 100%;
       transition: scale 200ms ease; }
 
+.card:hover {
+  transform: scale(1.02); }
+
 .titulo-seccion {
-  color: #1c3b61;
-  font-family: "Roboto Slab", serif;
-  font-size: 2.2rem;
-  font-weight: bolder;
+  color: #0D0D0D;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.3rem;
+  font-weight: 900;
   padding: none;
   margin: none; }
 
 .card-title {
-  color: #224774;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 700; }
+  color: #0D0D0D;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 900; }
 
 .header {
-  background-color: black;
-  color: #489CBF;
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder; }
+  background-color: #0D0D0D;
+  color: #05F258;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 520; }
+
+h1 {
+  font-size: 4.8rem; }
 
 h2 {
-  color: #abc1cd;
-  font-family: "Roboto", sans-serif; }
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large; }
 
 a.nav-link {
-  color: #489CBF; }
+  color: #05F258;
+  font-family: Arial, Helvetica, sans-serif; }
 
-.btn, .btnAzul, .btnCeleste {
-  color: #1c3b61;
-  background-color: #489CBF;
+.btn, .btnVerdemedio, .btnVerdeclaro {
+  color: #0D0D0D;
+  background-color: #05F258;
   border-radius: 4px;
   border: 1px solid black; }
-  .btn:hover, .btnAzul:hover, .btnCeleste:hover {
+  .btn:hover, .btnVerdemedio:hover, .btnVerdeclaro:hover {
     filter: grayscale(100%); }
 
-.btnAzul {
-  background-color: #1c3b61;
-  color: whitesmoke; }
+.btnVerdemedio {
+  background-color: #038c08;
+  color: white; }
 
-.btnCeleste {
-  background-color: #489CBF;
+.btnVerdeclaro {
+  background-color: #86f586;
   color: black; }
 
 /* FOOTER */
@@ -136,3 +145,5 @@ a.nav-link.active {
 
   .caja-grid.c9 {
     grid-column-start: span 1; } }
+.caja-grid:hover {
+  transform: scale(1.04); }

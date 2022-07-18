@@ -6,6 +6,7 @@
 
 .card {
     background-color: $clr-celesteclaro;
+    font-family: $ff-helvetica;
     padding: 0.1rem;
     margin: 0.1rem auto;
 
@@ -20,21 +21,24 @@
     }
 }
 
+.card:hover{
+    transform: scale(1.02);
+}
 
 .titulo-seccion{
-    color: $clr-azuloscuro;
-    font-family: $ff-robotslab;
-    font-size: 2.2rem;
-    font-weight: bolder;
+    color: $clr-negronew;
+    font-family: $ff-helvetica;
+    font-size: 2.3rem;
+    font-weight: 900;
     padding: none;
     margin: none;
 }
 
 .card-title{
-    color: $clr-azulclaro;
-    font-family: $ff-roboto;
-    font-size: 1.6rem;
-    font-weight: 700;
+    color: $clr-negronew;
+    font-family: $ff-helvetica;
+    font-size: 1.7rem;
+    font-weight: 900;
 }
 
 
