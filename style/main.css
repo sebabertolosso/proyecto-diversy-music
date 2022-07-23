@@ -37,6 +37,7 @@
 
 .cards {
   padding: 1rem;
+  margin: 2rem;
   display: flex;
   flex-flow: column; }
 
@@ -75,7 +76,7 @@
   background-color: #0D0D0D;
   color: #05F258;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 520; }
+  font-weight: 500; }
 
 h1 {
   font-size: 4.8rem; }
@@ -108,7 +109,12 @@ a.nav-link {
 /* FOOTER */
 a.nav-link.active {
   font-size: x-large;
-  font-weight: 500; }
+  font-weight: 500;
+  color: whitesmoke; }
+
+a.nav-link.active:hover {
+  transform: scale(1.02);
+  color: #05F258; }
 
 /* Seccion Galeria Grid */
 .caja-grid img {

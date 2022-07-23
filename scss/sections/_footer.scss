@@ -22,4 +22,11 @@
 a.nav-link.active{
     font-size: x-large;
     font-weight: 500;
+    color: whitesmoke
 }
+
+a.nav-link.active:hover{
+    transform: scale(1.02);
+    color: $clr-verdelima;
+}
+
