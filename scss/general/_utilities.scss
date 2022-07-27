@@ -14,9 +14,9 @@
 }
 
 .letraMediana {
-    @include fontSize(1.5rem, 400);
+    @include fontSize(1.2rem, 300);
 }
 
 .letraGrande {
-    @include fontSize(2.2rem, 600);
+    @include fontSize(1.8rem, 500);
 }

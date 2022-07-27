@@ -19,16 +19,21 @@ h2{
 a.nav-link{
     color: $clr-verdelima;
     font-family: $ff-helvetica;
+    font-weight: bold;
 }
+
+
 
 .btn {
     color: $clr-negronew;
-    background-color: $clr-verdelima;
-    border-radius: 4px;
+    background-color: $clr-verdeoscuro;
+    border-radius: 2px;
     border: 1px solid black;
-
+    
     &:hover {
         filter:grayscale(100%);
+        transition: 0.2s;
+        transform: scale(1.05);
     }
 }
 
@@ -38,8 +43,9 @@ a.nav-link{
     color: white;
 }
 
-.btnVerdeclaro{
+.btnVerdelima{
     @extend .btn;
-    background-color: $clr-verdeclaro;
+    background-color: $clr-verdelima;
     color: black;
 }
+
