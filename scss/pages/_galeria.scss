@@ -47,5 +47,6 @@
 }
 
 .caja-grid:hover{
-    transform: scale(1.04);
+    transform: scale(1.01);
+    transition: transform 200ms ease;
 }
