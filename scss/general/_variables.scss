@@ -1,0 +1,42 @@
+/* Color Theme Swatches in Hex */
+$clr-azuloscuro: #1c3b61;
+$clr-negro: #03020B;
+$clr-azulclaro: #224774;
+$clr-celesteclaro: #dce3e8;
+$clr-celestemedio: #abc1cd; 
+$clr-celesteoscuro: #489CBF;
+$clr-blanco: #fefefe;
+$clr-negronew: #0D0D0D;
+$clr-verdeoscuro: #22b807;
+$clr-verdemedio: #019c06;
+$clr-verdeclaro: #86f586;
+$clr-verdelima: #05F258;
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&family=Roboto:wght@400;500;700&display=swap');
+
+$ff-roboto: 'Roboto', sans-serif;
+$ff-robotslab: 'Roboto Slab', serif;
+$ff-helvetica: Arial, Helvetica, sans-serif;
+
+
+/* Borders */
+$borderRadius: 0.25rem;
+
+$margin-1: 0.25rem;
+$margin-2: 1rem;
+
+.c-blanco{
+    color: whitesmoke;
+}
+
+.c-verde{
+    color: greenyellow;
+}
+
+.c-gris{
+    color: darkslategrey;
+}
+
+
+

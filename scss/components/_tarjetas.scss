@@ -1,0 +1,63 @@
+.cards {
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.card {
+    background-color: $clr-celesteclaro;
+    font-family: $ff-helvetica;
+    padding: 0.1rem;
+    margin: 0.1rem auto;
+
+    &__img{
+        @include flexCenter;
+        padding: 1rem;
+        
+        & img {
+            width: 100%;
+            transition: scale 200ms ease;
+        }
+    }
+}
+
+.card:hover{
+    transform: scale(1.01);
+    transition: transform 200ms ease;
+}
+
+.titulo-seccion{
+    color: $clr-negronew;
+    font-family: $ff-helvetica;
+    font-size: 2.2rem;
+    font-weight: 900;
+    padding: none;
+    margin: none;
+}
+
+.card-title{
+    color: $clr-negronew;
+    font-family: $ff-helvetica;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

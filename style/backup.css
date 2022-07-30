@@ -1,0 +1,118 @@
+.c-blanco{
+    color: whitesmoke;
+}
+
+.c-verde{
+    color: greenyellow;
+}
+
+.c-gris{
+    color: darkslategrey;
+}
+
+.header{
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+h2{
+    color: whitesmoke;
+}
+
+
+a.nav-link{
+    color: greenyellow;
+}
+
+.btn {
+    color: greenyellow;
+    background-color: darkslategrey;
+}
+
+.titulo-seccion{
+    color: darkslategrey;
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding: none;
+    margin: none;
+}
+
+.card-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* FOOTER */
+a.dropdown-item{
+    color: greenyellow;
+}
+
+i.bi-facebook::before{
+    color: greenyellow;
+}
+
+i.bi-twitter::before{
+    color: greenyellow;
+}
+
+i.bi-instagram::before{
+    color: greenyellow;
+}
+
+i.bi-spotify::before{
+    color: greenyellow;
+}
+
+a.nav-link.active{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+
+/* Seccion Galeria Grid */
+
+.caja-grid img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    padding: 15px;
+    margin: 0;
+}
+
+@media (min-width: 575px){
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    grid-gap: 10px;
+    padding: 2vh 7.5vw;
+}
+}
+
+.caja-grid.c7{
+    grid-column-start: span 2;
+}
+
+
+@media screen and (min-width: 1024px){
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    padding: 2vh 3vw;
+    grid-gap: 3px;
+    margin: auto;
+}
+.caja-grid.c7{
+    grid-column-start: span 1;
+}
+
+.caja-grid.c8{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+.caja-grid.c9{
+    grid-column-start: span 1;
+}
+}

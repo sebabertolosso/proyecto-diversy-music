@@ -1,0 +1,196 @@
+/* Color Theme Swatches in Hex */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&family=Roboto:wght@400;500;700&display=swap");
+/* Borders */
+.c-blanco {
+  color: whitesmoke; }
+
+.c-verde {
+  color: greenyellow; }
+
+.c-gris {
+  color: darkslategrey; }
+
+.letraChica {
+  font-size: 0.5rem;
+  font-weight: 100; }
+
+.letraMediana {
+  font-size: 1.2rem;
+  font-weight: 300; }
+
+.letraGrande {
+  font-size: 1.8rem;
+  font-weight: 500; }
+
+.btnFacebook {
+  color: #3b5998; }
+
+.btnTwitter {
+  color: #00acee; }
+
+.btnInstagram {
+  color: #8a3ab9; }
+
+.btnSpotify {
+  color: #1ed760; }
+
+.cards {
+  padding: 1rem;
+  margin: 2rem;
+  display: flex;
+  flex-flow: column; }
+
+.card {
+  background-color: #dce3e8;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.1rem;
+  margin: 0.1rem auto; }
+  .card__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; }
+    .card__img img {
+      width: 100%;
+      transition: scale 200ms ease; }
+
+.card:hover {
+  transform: scale(1.01);
+  transition: transform 200ms ease; }
+
+.titulo-seccion {
+  color: #0D0D0D;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  padding: none;
+  margin: none; }
+
+.card-title {
+  color: #0D0D0D;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 900; }
+
+.header {
+  background-color: #0D0D0D;
+  color: #05F258;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500; }
+
+h1 {
+  font-size: 4.8rem; }
+
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large; }
+
+a.nav-link {
+  color: #05F258;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; }
+
+.btn, .btnVerdemedio, .btnVerdelima {
+  color: #0D0D0D;
+  background-color: #22b807;
+  border-radius: 2px;
+  border: 1px solid black; }
+  .btn:hover, .btnVerdemedio:hover, .btnVerdelima:hover {
+    filter: grayscale(100%);
+    transition: 0.2s;
+    transform: scale(1.05); }
+
+.btnVerdemedio {
+  background-color: #019c06;
+  color: white; }
+
+.btnVerdelima {
+  background-color: #05F258;
+  color: black; }
+
+a.nav-link.active {
+  font-size: x-large;
+  font-weight: 500;
+  color: whitesmoke; }
+
+a.nav-link.active:hover {
+  transform: scale(1.02);
+  color: #05F258;
+  transition: 0.2s; }
+
+.btnFacebook {
+  font-size: x-large; }
+
+.btnTwitter {
+  font-size: x-large; }
+
+.btnInstagram {
+  font-size: x-large; }
+
+.btnSpotify {
+  font-size: x-large; }
+
+.btnFacebook:hover {
+  transform: scale(1.01);
+  color: whitesmoke;
+  transition: 0.2s; }
+
+.btnTwitter:hover {
+  transform: scale(1.01);
+  color: whitesmoke;
+  transition: 0.2s; }
+
+.btnInstagram:hover {
+  transform: scale(1.01);
+  color: whitesmoke;
+  transition: 0.2s; }
+
+.btnSpotify:hover {
+  transform: scale(1.01);
+  color: whitesmoke;
+  transition: 0.2s; }
+
+.form-control {
+  border-radius: 2px;
+  border: 1px solid #d2d0d0; }
+
+/* Seccion Galeria Grid */
+.caja-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  margin: 0; }
+
+@media (min-width: 575px) {
+  .contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    grid-gap: 10px;
+    padding: 2vh 7.5vw; } }
+.caja-grid.c7 {
+  grid-column-start: span 2; }
+
+@media screen and (min-width: 1024px) {
+  .contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2vh 3vw;
+    grid-gap: 3px;
+    margin: auto; }
+
+  .caja-grid.c7 {
+    grid-column-start: span 1; }
+
+  .caja-grid.c8 {
+    grid-column-start: span 2;
+    grid-row-start: span 2; }
+
+  .caja-grid.c9 {
+    grid-column-start: span 1; } }
+.caja-grid:hover {
+  transform: scale(1.01);
+  transition: transform 200ms ease; }

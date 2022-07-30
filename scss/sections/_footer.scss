@@ -1,0 +1,56 @@
+a.nav-link.active{
+    font-size: x-large;
+    font-weight: 500;
+    color: whitesmoke
+}
+
+a.nav-link.active:hover{
+    transform: scale(1.02);
+    color: $clr-verdelima;
+    transition: 0.2s;
+}
+
+.btnFacebook{
+    font-size: x-large;
+}
+
+.btnTwitter{
+    font-size: x-large;
+}
+
+.btnInstagram{
+    font-size: x-large;
+}
+
+.btnSpotify{
+    font-size: x-large;
+}
+
+.btnFacebook:hover{
+    transform: scale(1.01);
+    color:whitesmoke;
+    transition: 0.2s;
+}
+
+.btnTwitter:hover{
+    transform: scale(1.01);
+    color:whitesmoke;
+    transition: 0.2s;
+}
+
+.btnInstagram:hover{
+    transform: scale(1.01);
+    color:whitesmoke;
+    transition: 0.2s;
+}
+
+.btnSpotify:hover{
+    transform: scale(1.01);
+    color:whitesmoke;
+    transition: 0.2s;
+}
+
+.form-control{
+    border-radius: 2px;
+    border: 1px solid rgb(210, 208, 208);
+}
